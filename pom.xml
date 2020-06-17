@@ -80,7 +80,7 @@
             <plugin>
                 <groupId>de.jutzig</groupId>
                 <artifactId>github-release-plugin</artifactId>
-                <version>1.2.0</version>
+                <version>1.4.0</version>
                 <configuration>
                     <releaseName>mathan-dependency-updates-sonar-plugin-${project.version}</releaseName>
                     <tag>${project.version}</tag>
