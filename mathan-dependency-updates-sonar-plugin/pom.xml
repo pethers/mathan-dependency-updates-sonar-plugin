@@ -16,7 +16,7 @@
           </execution>
         </executions>
         <groupId>org.codehaus.gmavenplus</groupId>
-        <version>1.10.0</version>
+        <version>1.10.1</version>
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
