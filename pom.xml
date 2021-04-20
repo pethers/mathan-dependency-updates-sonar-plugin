@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.sonarsource.parent</groupId>
         <artifactId>parent</artifactId>
-        <version>54</version>
+        <version>57.0.19</version>
     </parent>
     <groupId>io.mathan.sonar</groupId>
     <artifactId>mathan-dependency-updates-sonar-plugin-reactor</artifactId>
