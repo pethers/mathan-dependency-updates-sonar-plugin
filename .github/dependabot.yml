@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.sonarsource.parent:parent
+    versions:
+    - "55"
+    - 57.0.19
+    - 58.0.22
+  - dependency-name: com.github.spotbugs:spotbugs-annotations
+    versions:
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+  - dependency-name: org.sonarsource.sonarqube:sonar-plugin-api
+    versions:
+    - 8.6.1.40680
+    - 8.7.0.41497
+  - dependency-name: org.spockframework:spock-core
+    versions:
+    - 2.0-M4-groovy-3.0
