@@ -121,6 +121,6 @@
     <sonar.pluginClass>io.mathan.sonar.dependencyupdates.Plugin</sonar.pluginClass>
     <!-- Configuration for sonar-packaging-maven-plugin -->
     <sonar.pluginName>Dependency-Updates</sonar.pluginName>
-    <sonar.version>8.0</sonar.version>
+    <sonar.version>8.8.0.42792</sonar.version>
   </properties>
 </project>
